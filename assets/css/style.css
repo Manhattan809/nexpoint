@@ -1,0 +1,193 @@
+@font-face {
+	font-family: "UtopiaStd";
+	src: url("../fonts/UtopiaStd-Regular.otf");
+}
+
+@font-face {
+	font-family: "AFuturicaBook";
+	src: url("../fonts/Futu_BK.TTF");
+}
+
+@font-face {
+	font-family: "AFuturicaBsBold";
+	src: url("../fonts/Futu_BL.TTF");
+}
+
+.main-bg {
+	width: 100%;
+	height: 1050px;
+	background: url("../img/main-bg.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.menu {
+	padding-top: 65px;
+}
+
+.menu ul {
+	line-height: 18px;
+}
+
+.menu li {
+	padding: 0px 13px;
+}
+
+.menu .nav-link {
+	color: #E8E8E6;
+	font-family: "AFuturicaBook";
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+	border-bottom: 3px solid transparent;
+}
+.menu .nav-item.active a, .menu .nav-link:hover {
+	border-bottom: 3px solid #ffffff;
+}
+
+.menu .navbar-brand {
+	padding: 0px 50px;
+}
+
+.menu .navbar-brand img {
+	height: 60px;
+	margin-top: -10px;
+}
+
+.header .text-middle {
+	margin: 200px 0px 0px 0px;
+	font-family: "AFuturicaBsBold";
+	color: #FFF;
+}
+
+.header .text-middle .title {
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 48px;
+	letter-spacing: 2px;
+}
+
+.header .text-middle .text {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.header .text-bottom {
+	margin-top: 125px;
+	padding: 50px 75px;
+	background: #EFEFEF;
+}
+
+.header .text-bottom p {
+	font-size: 28px;
+	font-family: "UtopiaStd";
+	color: rgb( 38, 43, 45 );
+	line-height: 56px;
+}
+
+.header .text-bottom span {
+	font-size: 56px;
+	font-family: "UtopiaStd";
+	color: #2f5f98;
+	font-weight: bold;
+	line-height: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.We_pay_attention_to_the_details {
+	font-size: 0.514in;
+	font-family: "UtopiaStd";
+	color: rgb( 37, 37, 37 );
+	line-height: 1.163;
+	text-align: right;
+	-moz-transform: matrix( 0.99995881703493, 0, 0, 1.00047200459221, 0, 0);
+	-webkit-transform: matrix( 0.99995881703493, 0, 0, 1.00047200459221, 0, 0);
+	position: absolute;
+	left: 15.1527777777778in;
+	top: 66.4305555555556in;
+	width: 3.542in;
+	height: 0.861in;
+	z-index: 173;
+}
+
+.Rectangle_13_copy_2 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 14.944in;
+  top: 1.417in;
+  width: 1.431in;
+  height: 0.042in;
+  z-index: 8;
+}
+
+.welcome_____________about_us_____________why_ne {
+  font-size: 0.117in;
+  font-family: "AFuturicaBook";
+  color: rgb( 255, 254, 255 );
+  text-transform: uppercase;
+  line-height: 6.171;
+  text-align: left;
+  -moz-transform: matrix( 1.25226684502849, 0, 0, 1.27891308900696, 0, 0);
+  -webkit-transform: matrix( 1.25226684502849, 0, 0, 1.27891308900696, 0, 0);
+  text-shadow: 0in 0in 0.375in rgb( 6, 6, 6 );
+  position: absolute;
+  left: 2.26388888888889in;
+  top: 1.05555555555556in;
+  width: 16.208in;
+  height: 0.139in;
+  z-index: 7;
+}
+
+.FOR_EMPLOYERS_Dolora_est__adipis_gevy_consetiw_ {
+  font-size: 0.175in;
+  font-family: "AFuturicaBsBold";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  line-height: 3.891;
+  text-align: left;
+  -moz-transform: matrix( 1.28765634384413, 0, 0, 1.28655334153125, 0, 0);
+  -webkit-transform: matrix( 1.28765634384413, 0, 0, 1.28655334153125, 0, 0);
+  position: absolute;
+  left: 2.25in;
+  top: 3.76388888888889in;
+  width: 4.986in;
+  height: 2.097in;
+  z-index: 11;
+}
+
+._76__of_hiring_managers_admit_attracting_top_ta {
+  font-size: 0.459in;
+  font-family: "UtopiaStd";
+  color: rgb( 38, 43, 45 );
+  line-height: 1.634;
+  text-align: left;
+  -moz-transform: matrix( 0.94421052631579, 0, 0, 0.9425297472757, 0, 0);
+  -webkit-transform: matrix( 0.94421052631579, 0, 0, 0.9425297472757, 0, 0);
+  position: absolute;
+  left: 8.06944444444444in;
+  top: 9.09722222222222in;
+  width: 10.236in;
+  height: 1.847in;
+  z-index: 117;
+}
+*/
