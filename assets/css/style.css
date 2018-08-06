@@ -13,6 +13,121 @@
 	src: url("../fonts/Futu_BL.TTF");
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header .text-middle {
+		margin: 100px 0px 0px 0px;
+	}
+	.header .text-middle .text {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.header .text-bottom {
+		margin-top: 100px;
+		padding: 20px 30px;
+	}
+	.header .text-bottom p {
+		font-size: 28px;
+		line-height: 46px;
+	}
+	.header .text-bottom span {
+		font-size: 48px;
+		line-height: 56px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header .text-middle {
+		margin: 100px 0px 0px 0px;
+	}
+	.header .text-middle .text {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.header .text-bottom {
+		margin-top: 100px;
+		padding: 20px 30px;
+	}
+	.header .text-bottom p {
+		font-size: 28px;
+		line-height: 46px;
+	}
+	.header .text-bottom span {
+		font-size: 48px;
+		line-height: 56px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.header .text-middle {
+		margin: 200px 0px 0px 0px;
+	}
+	.header .text-middle .text {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.header .text-bottom {
+		margin-top: 125px;
+		padding: 50px 75px;
+	}
+	.header .text-bottom p {
+		font-size: 28px;
+		line-height: 56px;
+	}
+	.header .text-bottom span {
+		font-size: 56px;
+		line-height: 62px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.header .text-middle {
+		margin: 200px 0px 0px 0px;
+	}
+	.header .text-middle .text {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.header .text-bottom {
+		margin-top: 125px;
+		padding: 50px 75px;
+	}
+	.header .text-bottom p {
+		font-size: 28px;
+		line-height: 56px;
+	}
+	.header .text-bottom span {
+		font-size: 56px;
+		line-height: 62px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.header .text-middle {
+		margin: 200px 0px 0px 0px;
+	}
+	.header .text-middle .text {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.header .text-bottom {
+		margin-top: 125px;
+		padding: 50px 75px;
+	}
+	.header .text-bottom p {
+		font-size: 28px;
+		line-height: 56px;
+	}
+	.header .text-bottom span {
+		font-size: 56px;
+		line-height: 62px;
+	}
+}
+
 .main-bg {
 	width: 100%;
 	height: 1050px;
@@ -21,19 +136,25 @@
     background-position: right top;
 }
 
-.menu {
-	padding-top: 65px;
+.navbar-toggler i {
+	color: white;
+	padding-top: 10px;
 }
 
-.menu ul {
+.navbar {
+	padding-top: 65px;
+	background: transparent;
+}
+
+.navbar ul {
 	line-height: 18px;
 }
 
-.menu li {
+.navbar li {
 	padding: 0px 13px;
 }
 
-.menu .nav-link {
+.navbar .nav-link {
 	color: #E8E8E6;
 	font-family: "AFuturicaBook";
 	font-size: 12px;
@@ -42,21 +163,21 @@
 	transition: 0.3s ease;
 	border-bottom: 3px solid transparent;
 }
-.menu .nav-item.active a, .menu .nav-link:hover {
+.navbar .nav-item.active a, .navbar .nav-link:hover {
 	border-bottom: 3px solid #ffffff;
+	color:#FFF;
 }
 
-.menu .navbar-brand {
+.navbar .navbar-brand {
 	padding: 0px 50px;
 }
 
-.menu .navbar-brand img {
+.navbar .navbar-brand img {
 	height: 60px;
 	margin-top: -10px;
 }
 
 .header .text-middle {
-	margin: 200px 0px 0px 0px;
 	font-family: "AFuturicaBsBold";
 	color: #FFF;
 }
@@ -69,125 +190,25 @@
 }
 
 .header .text-middle .text {
-	font-size: 36px;
-	line-height: 42px;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
 
 .header .text-bottom {
-	margin-top: 125px;
-	padding: 50px 75px;
 	background: #EFEFEF;
 }
 
 .header .text-bottom p {
-	font-size: 28px;
 	font-family: "UtopiaStd";
 	color: rgb( 38, 43, 45 );
-	line-height: 56px;
 }
 
 .header .text-bottom span {
-	font-size: 56px;
 	font-family: "UtopiaStd";
 	color: #2f5f98;
 	font-weight: bold;
-	line-height: 62px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.We_pay_attention_to_the_details {
-	font-size: 0.514in;
+.content {
 	font-family: "UtopiaStd";
-	color: rgb( 37, 37, 37 );
-	line-height: 1.163;
-	text-align: right;
-	-moz-transform: matrix( 0.99995881703493, 0, 0, 1.00047200459221, 0, 0);
-	-webkit-transform: matrix( 0.99995881703493, 0, 0, 1.00047200459221, 0, 0);
-	position: absolute;
-	left: 15.1527777777778in;
-	top: 66.4305555555556in;
-	width: 3.542in;
-	height: 0.861in;
-	z-index: 173;
 }
-
-.Rectangle_13_copy_2 {
-  background-color: rgb( 255, 255, 255 );
-  position: absolute;
-  left: 14.944in;
-  top: 1.417in;
-  width: 1.431in;
-  height: 0.042in;
-  z-index: 8;
-}
-
-.welcome_____________about_us_____________why_ne {
-  font-size: 0.117in;
-  font-family: "AFuturicaBook";
-  color: rgb( 255, 254, 255 );
-  text-transform: uppercase;
-  line-height: 6.171;
-  text-align: left;
-  -moz-transform: matrix( 1.25226684502849, 0, 0, 1.27891308900696, 0, 0);
-  -webkit-transform: matrix( 1.25226684502849, 0, 0, 1.27891308900696, 0, 0);
-  text-shadow: 0in 0in 0.375in rgb( 6, 6, 6 );
-  position: absolute;
-  left: 2.26388888888889in;
-  top: 1.05555555555556in;
-  width: 16.208in;
-  height: 0.139in;
-  z-index: 7;
-}
-
-.FOR_EMPLOYERS_Dolora_est__adipis_gevy_consetiw_ {
-  font-size: 0.175in;
-  font-family: "AFuturicaBsBold";
-  color: rgb( 255, 255, 255 );
-  text-transform: uppercase;
-  line-height: 3.891;
-  text-align: left;
-  -moz-transform: matrix( 1.28765634384413, 0, 0, 1.28655334153125, 0, 0);
-  -webkit-transform: matrix( 1.28765634384413, 0, 0, 1.28655334153125, 0, 0);
-  position: absolute;
-  left: 2.25in;
-  top: 3.76388888888889in;
-  width: 4.986in;
-  height: 2.097in;
-  z-index: 11;
-}
-
-._76__of_hiring_managers_admit_attracting_top_ta {
-  font-size: 0.459in;
-  font-family: "UtopiaStd";
-  color: rgb( 38, 43, 45 );
-  line-height: 1.634;
-  text-align: left;
-  -moz-transform: matrix( 0.94421052631579, 0, 0, 0.9425297472757, 0, 0);
-  -webkit-transform: matrix( 0.94421052631579, 0, 0, 0.9425297472757, 0, 0);
-  position: absolute;
-  left: 8.06944444444444in;
-  top: 9.09722222222222in;
-  width: 10.236in;
-  height: 1.847in;
-  z-index: 117;
-}
-*/
